@@ -1,11 +1,11 @@
-name: docs
+name: dreamaigc
 
 on:
   push:
     branches: [master]
 
 jobs:
-  docs:
+  dreamaigc:
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,7 +21,9 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - name: Build Monkey Site
-        run: npm run build
+        run: |
+          npm install
+          npm run build
       - name: Deploy to Github Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
