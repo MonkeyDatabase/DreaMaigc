@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as s}from"./chunks/framework.e326ebab.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"posts/ai/test.md","filePath":"posts/ai/test.md","lastUpdated":1689315957000}'),a={name:"posts/ai/test.md"};function o(r,c,n,p,i,d){return e(),s("div")}const f=t(a,[["render",o]]);export{m as __pageData,f as default};
